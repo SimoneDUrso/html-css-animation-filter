@@ -2,7 +2,7 @@
 
 .ex-1-square:hover {
     background-color: red;
-    transition: 2s;
+    transition: 3s;
 }
 
 /* SOLUZIONE SECONDO ESERCIZIO */
@@ -20,3 +20,31 @@
 }
 
 /* SOLUZIONE QUARTO ESERCIZIO */
+
+.ex-4-square:hover {
+    background-color: rgba(255, 0, 0, 0);
+    transition: 3s;
+}
+
+/* SOLUZIONE QUINTO ESERCIZIO */
+
+.ex-5-square:hover {
+    transform: scale(1.5);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* SOLUZIONE SESTO ESERCIZIO */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* SOLUZIONE SETTIMO ESERCIZIO */
+
+.ex-7-img:hover {
+    filter: drop-shadow(8px 8px 10px black);
+    transform: rotate(180deg);
+}
