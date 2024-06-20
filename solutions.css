@@ -79,3 +79,26 @@
         transform: rotate(360deg);
     }
 }
+
+/* SOLUZIONE ESERCIZIO UNDICI */
+
+.ex-11-icon:hover {
+    animation: QuattroRotazioni 5s ease-in-out;
+}
+
+@keyframes QuattroRotazioni {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(1440deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+/*  */
