@@ -101,4 +101,40 @@
 
 }
 
-/*  */
+/* SOLUZIONE ESERCIZIO DODICI */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: DivSopra 2s ease forwards;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: DivSotto 2s ease forwards;
+}
+
+@keyframes DivSopra {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(80px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes DivSotto {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-80px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
