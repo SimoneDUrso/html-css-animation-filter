@@ -1,0 +1,22 @@
+/* SOLUZIONE PRIMO ESERCIZIO */
+
+.ex-1-square:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+/* SOLUZIONE SECONDO ESERCIZIO */
+
+.ex-2-square:active {
+    width: 100%;
+    transition: 3s;
+}
+
+/* SOLUZIONE TERZO ESERCIZIO */
+
+.ex-3-square:hover {
+    border-radius: 100%;
+    transition: 3s;
+}
+
+/* SOLUZIONE QUARTO ESERCIZIO */
